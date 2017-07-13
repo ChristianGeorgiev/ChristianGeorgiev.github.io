@@ -1,8 +1,9 @@
 body {
-  width: 95%;
+  width: 98%;
   margin: 0 auto;
   /*border: 1px solid black;*/
   font-family: sans-serif;
+  background: -webkit-linear-gradient(left, rgba(15,15,15,1) 0%, rgba(26,26,26,1) 50%, rgba(31,31,31,1) 65%, rgba(0,0,0,1) 86%, rgba(0,0,0,1) 100%);
 }
 
 
@@ -11,4 +12,50 @@ header h1 {
   letter-spacing: 10px;
   text-transform: uppercase;;
   text-align: center;
+  color: #E6E6FA;
+  background-color: black;
+  opacity: 0.5;
+}
+
+header {
+  height: 400px;
+  background-image: url("../images/b86fb58651ac30c27da1ef52d16e9b21.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+header ul.navigation {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+header li.nav-item {
+  display: inline-block;
+  letter-spacing: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+li.nav-item > a {
+  text-decoration: none;
+  color: #E6E6FA;
+}
+
+.apply-section {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.apply-section > a {
+  font-size: 45px;
+  font-family: sans-serif;
+  text-transform: uppercase;
 }
