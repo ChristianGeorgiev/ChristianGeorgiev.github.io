@@ -2,9 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width-device-width, initial-scale=1">
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/styles-index.css">
+    <link rel="stylesheet" href="styles/responsive.css">
     <title>SoftUni</title>
   </head>
   <body>
@@ -12,13 +13,53 @@
         <h1>Software University</h1>
           <nav>
             <ul class="navigation">
-              <li class="nav-item"><a href="index.html">home</a></li>
-              <li class="nav-item"><a href="#"><span class="selected">trainers</span></a></li>
-              <li class="nav-item"><a href="#">projects</a></li>
-              <li class="nav-item"><a href="#">about</a></li>
-              <li class="nav-item"><a href="#">contacts</a></li>
+              <li class="nav-item"><a href="index.html"> home</a></li>
+              <li class="nav-item"><a href="trainers.html"><span class="selected">trainers</span></a></li>
+              <li class="nav-item"><a target="_blank"  href="https://softuni.bg/forum">forum</a></li>
+              <li class="nav-item"><a target="_blank"  href="https://softuni.bg/about">about</a></li>
+              <li class="nav-item"><a target="_blank"  href="https://softuni.bg/contacts">contacts</a></li>
             </ul>
           </nav>
     </header>
+    <main class="trainers-main">
+      <h2>some of our top trainers at SoftUni</h2>
+      <figure class="trainer-image">
+        <div class="image-container">
+          <img src="images/freddy-krueger-robert-englund-from-a-nightmare-on-elm-street-4-the-dream-master-c616f3c2f5298f55.jpg">
+          <figcaption>Ivan Ivanov - Java Trainer</figcaption>
+        </div>
+      </figure>
+
+      <figure class="trainer-image">
+        <div class="image-container">
+          <img src="images/Leatherface-main.jpg">
+          <figcaption>Svetlin Nakov - Founder/Trainer</figcaption>
+        </div>
+      </figure>
+
+      <figure class="trainer-image">
+        <div class="image-container">
+          <img src="images/23c82847c623d19beed43c564e995059.jpg">
+          <figcaption>Ivailo Kenov - C# Trainer</figcaption>
+        </div>
+      </figure>
+    </main>
+    <footer>
+        <ul class="contacts-footer">
+          <li>tintyava str. 15-17</li>
+          <li>+359 899 555 592</li>
+          <li>info@softuni.bg</li>
+        </ul>
+
+        <ul class="links-footer">
+          <li><a target="_blank"  href="https://softuni.bg/about">about</a></li>
+          <li><a target="_blank"  href="http://foundation.softuni.bg/">softuni org</a></li>
+          <li><a target="_blank"  href="https://softuni.bg/faq">FAQ</a></li>
+        </ul>
+        <div class="social">
+          <a target="_blank"  href="https://www.facebook.com/SoftwareUniversity/?fref=ts"><img id="facebook"></a>
+          <a target="_blank"  href="https://www.youtube.com/user/softwareuniversity"><img id="youtube"></a>
+        </div>
+    </footer>
   </body>
 </html>

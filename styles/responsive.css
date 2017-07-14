@@ -1,0 +1,172 @@
+
+@media screen and (max-width: 480px) {
+
+  html, body {
+  width: 100%;
+  overflow-x: hidden !important;
+  }
+
+  header {
+    text-align: center;
+  }
+
+  header h1 {
+    font-size: 30px;
+  }
+
+  header li.nav-item {
+    display: block;
+    letter-spacing: 3px;
+    line-height: 25px;
+  }
+
+  /****************
+    MAIN SECTION
+  ****************/
+
+  section.building-section {
+    text-align: center;
+    position: relative;
+    height: 400px;
+  }
+
+  div.building-text-container {
+    float: none;
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0;
+    padding: 0;
+    word-break: keep-all;
+    word-wrap: break-word;
+  }
+
+  div.building-text-container p {
+    max-width: 100%;
+    font-size: 20px;
+    text-align: left;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+  }
+
+  /****************
+      FOOTER
+  ****************/
+
+  footer {
+    max-width: 100%;
+    background-color: #000;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+  }
+
+  footer ul.contacts-footer {
+    display: inline-block;
+    margin-right: 0;
+    float: left;
+  }
+
+  footer ul.links-footer {
+    display: inline-block;
+    margin-right: 0;
+    float: right;
+  }
+
+  footer li a, footer li {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+  }
+
+  div.social {
+    display: inline-block;
+    float: none;
+    margin-right:0px;
+    margin-top: 10px;
+  }
+
+
+  /****************
+   TRAINERS PAGE
+  ****************/
+
+  figure.trainer-image {
+    display: inline-block;
+    margin: 30px 10px;
+    transition: all 0.4s;
+  }
+
+  figure.trainer-image:hover {
+    transform: scale(1.02);
+  }
+
+  div.image-container {
+      padding: 20px 20px 10px 20px;
+      background: #DCDCDC;
+      border-radius: 20px;
+  }
+
+  figure.trainer-image img {
+      width: 300px;
+      height: 300px;
+      object-fit: cover;
+      overflow: hidden;
+      border: 1px solid gray;
+      border-radius: 20px;
+  }
+
+  figure.trainer-image figcaption {
+    margin-top: 5px;
+  }
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px) and (min-width: 481px){
+  html, body {
+  width: 100%;
+  overflow-x: hidden !important;
+  }
+
+  /****************
+      FOOTER
+  ****************/
+
+  footer {
+    max-width: 100%;
+    height: 80px;
+    background-color: #000;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+  }
+
+  footer ul.contacts-footer {
+    display: inline-block;
+    margin-right: 0;
+    float: left;
+  }
+
+  footer ul.links-footer {
+    display: inline-block;
+    margin-right: 0;
+    float: right;
+  }
+
+  footer li a, footer li {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+  }
+
+  div.social {
+    display: inline-block;
+  }
+}

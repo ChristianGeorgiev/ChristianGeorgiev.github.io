@@ -6,6 +6,9 @@ body {
   background: -webkit-linear-gradient(left, rgba(15,15,15,1) 0%, rgba(26,26,26,1) 50%, rgba(31,31,31,1) 65%, rgba(0,0,0,1) 86%, rgba(0,0,0,1) 100%);
 }
 
+a {
+  cursor: pointer;
+}
 
 header h1 {
   font-size: 50px;
@@ -96,7 +99,7 @@ section.apply-section p {
   font-size: 25px;
   color: #E6E6FA;
   letter-spacing: 3px;
-  opacity: 0.6;
+  opacity: 1;
 }
 
 section.building-section {
@@ -112,7 +115,7 @@ div.building-text-container {
   background: #fff;
   width: 400px;
   float: right;
-  margin-top: 125px;
+  margin-top: 100px;
   margin-right: 100px;
   opacity: 0.8;
 }
@@ -121,6 +124,8 @@ div.building-text-container p {
   font-size: 50px;
   vertical-align: middle;
   text-align: left;
+  letter-spacing: 2px;
+  line-height: 52px;
 }
 
 footer {
@@ -137,11 +142,10 @@ footer ul {
   vertical-align: middle;
 }
 
-footer li a {
+footer li a, footer li {
   text-decoration: none;
   color: #fff;
   font-size: 30px;
-  opacity: 0.6;
   transition-property: color;
   transition-duration: 0.4s;
 }
@@ -202,4 +206,45 @@ div.social {
     background: url('../images/social.jpg') -69px 60px;
     width: 65px;
     height: 55px;
+}
+
+main.trainers-main {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+main h2 {
+  font-size: 40px;
+  margin: 25px 0;
+  color: #DCDCDC;
+  opacity: 0.2;
+}
+
+figure.trainer-image {
+  display: inline-block;
+  margin: 20px 50px;
+  transition: all 0.4s;
+}
+
+figure.trainer-image:hover {
+  transform: scale(1.02);
+}
+
+div.image-container {
+    padding: 20px 20px 10px 20px;
+    background: #DCDCDC;
+    border-radius: 20px;
+}
+
+figure.trainer-image img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    overflow: hidden;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+
+figure.trainer-image figcaption {
+  margin-top: 5px;
 }
