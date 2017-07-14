@@ -198,3 +198,15 @@
     line-height: 30px;
   }
 }
+
+
+@media screen and (max-width: 320px){
+  figure.trainer-image img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      overflow: hidden;
+      border: 1px solid gray;
+      border-radius: 20px;
+  }
+}
