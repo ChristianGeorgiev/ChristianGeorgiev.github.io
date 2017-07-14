@@ -1,5 +1,5 @@
 body {
-  width: 98%;
+  width: 100%;
   margin: 0 auto;
   /*border: 1px solid black;*/
   font-family: sans-serif;
@@ -47,15 +47,99 @@ header li.nav-item {
 li.nav-item > a {
   text-decoration: none;
   color: #E6E6FA;
+  transition-property: color;
+  transition-duration: 0.4s;
+  font-weight: bold;
 }
 
-.apply-section {
+li.nav-item > a:hover {
+  color: #8B0000;
+}
+
+section.apply-section {
+  margin: 0 auto;
   text-align: center;
   padding-top: 50px;
+  padding-bottom: 50px;
+  vertical-align: bottom;
 }
 
-.apply-section > a {
+section.apply-section > a {
   font-size: 45px;
   font-family: sans-serif;
+  text-decoration: none;
   text-transform: uppercase;
+  color: #000;
+  background: #E6E6FA;
+  opacity: 0.5;
+  border-radius: 30px;
+  padding: 10px;
+  transition-property: background, color, opacity, border;
+  transition-duration: 0.5s;
+  border: 2px solid gray;
+}
+
+section.apply-section > a:hover {
+  background: #000;
+  color: #fff;
+  opacity: 1;
+  border: 2px solid #fff;
+}
+
+section.apply-section p {
+  margin-top: 40px;
+  font-size: 25px;
+  color: #E6E6FA;
+  letter-spacing: 3px;
+  opacity: 0.5;
+}
+
+section.building-section {
+  background: url("../images/Abandoned_building_at_6-8_Krowia_Street_in_Warsaw,_Poland.jpg");
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+div.building-text-container {
+  padding: 30px;
+  background: #fff;
+  width: 400px;
+  float: right;
+  margin-top: 125px;
+  margin-right: 100px;
+  opacity: 0.8;
+}
+
+div.building-text-container p {
+  font-size: 50px;
+  vertical-align: middle;
+  text-align: left;
+}
+
+footer {
+  width: 100%;
+  height: 150px;
+  background-color: #000;
+  padding-left: 100px;
+  padding-top: 25px;
+}
+
+footer ul {
+  display: inline-block;
+  margin-right: 200px;
+  vertical-align: middle;
+}
+
+footer li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 30px;
+  transition-property: color;
+  transition-duration: 0.4s;
+}
+
+footer li a:hover {
+  color: #8B0000;
 }
